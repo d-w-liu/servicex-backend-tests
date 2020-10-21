@@ -23,8 +23,14 @@ Use `kubectl port-forward` on the pods `servicex-app` and `minio` outside of the
 
 We are now ready to run any of the tests by browsing to the `/tests` directory and running
 
-```
+```bash
 pytest test-script-name.py
+```
+
+For example, a sample successful run on the `xAOD` backend tests:
+```bash
+pytest .\tests\test_xAOD_functions.py
+
 ```
 
 When finished, we can deactivate our virtual environment with `deactivate`.

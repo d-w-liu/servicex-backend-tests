@@ -1,4 +1,4 @@
-servicex==2.1b4
-func-adl-servicex
+servicex>=2.1b4
+func-adl-servicex>=1.0a5
 pytest
 pytest-asyncio
